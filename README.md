@@ -28,7 +28,9 @@ onComplete用来告诉Subscriber所有的数据都已发射完毕；
 onError是在发生错误的时候发射一个Throwable对象给Subscriber
 
 ###create 操作符:
+
  Create 操作符。发送一个数据,这里发送String
+ 
  public void Create() {
 
         //被观察者
