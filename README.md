@@ -40,7 +40,9 @@ Observable，被观察者 ： “被”，被动词。谁被谁干嘛了，如�
 #####Subscriber的onNext/onComplete/onError方法:
 
 onNext就是发射处理好的数据给Subscriber;
+
 onComplete用来告诉Subscriber所有的数据都已发射完毕；
+
 onError是在发生错误的时候发射一个Throwable对象给Subscriber
 
 ###create 操作符:
