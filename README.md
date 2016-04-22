@@ -106,7 +106,7 @@ onError是在发生错误的时候发射一个Throwable对象给Subscriber
 
     }
     
-    ###Range操作符:
+###Range操作符:
     
     Range(n,m),Range操作符根据出入的初始值n和数目m发射一系列大于等于n的m个值
     
@@ -144,7 +144,7 @@ onError是在发生错误的时候发射一个Throwable对象给Subscriber
 
     }
     
-    ###just 操作符:
+###just 操作符:
     
     just方法。这里做的是传一个long类型的值。这个值随机生成。
     实验。同一个被观察者observable 被不同的订阅者订阅时，会不会生成不同的long 的值。
@@ -216,7 +216,7 @@ onError是在发生错误的时候发射一个Throwable对象给Subscriber
 
     }
     
-     ###From 操作符:
+###From 操作符:
     
     From操作符用来将某个对象转化为Observable对象，并且依次将其内容发射出去。
     这个类似于just，但是just会将这个对象整个发射出去。
@@ -248,7 +248,7 @@ public void From() {
 
     }
     
-    ###Interval 操作符:
+###Interval 操作符:
     
     Interval所创建的Observable对象会从0开始，每隔固定的时间发射一个数字。
     需要注意的是这个对象是运行在computation Scheduler,所以如果需要在view中显示结果，要在主线程中订阅。
@@ -308,7 +308,7 @@ Repeat会将一个Observable对象重复发射，我们可以指定其发射的�
 
     }
     
-    ###Timer操作符:
+###Timer操作符:
     
     Timer会在指定时间后发射一个数字0，注意其也是运行在computation Scheduler
     
