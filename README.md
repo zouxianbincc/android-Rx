@@ -19,7 +19,7 @@ Android 中使用RxAndroid与Rxjava简单的例子
   
   timer
   
-  只有这种操作符
+  现在只学习这几种操作符
   
 ###引入包：
 
