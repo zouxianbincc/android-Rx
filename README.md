@@ -11,6 +11,7 @@ Android 中使用RxAndroid与Rxjava简单的例子
 因为RxAndroid是基于RxJava的。所以引用RxAndroid同时，也引用RxJava
 
 dependencies {
+
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'io.reactivex:rxandroid:1.1.0'
     compile 'io.reactivex:rxjava:1.1.3'
