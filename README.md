@@ -4,7 +4,22 @@ Android 中使用RxAndroid与Rxjava简单的例子
 说明：
 =================
   此Demo只是简单的例子，因本人也是在学习和探索的阶段，如有错误的地方可及时联系我zouxianbincc@gmail.com
-  create，range，just，from，interval，repeat，timer只有这种操作符
+  
+  create
+  
+  range
+  
+  just
+  
+  from
+  
+  interval
+  
+  repeat
+  
+  timer
+  
+  只有这种操作符
   
 ###引入包：
 
